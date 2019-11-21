@@ -8,7 +8,7 @@ package com.cathy.eth191114.constants;
  */
 public class ETHParamConstants {
     //当前是否测试环境
-    public static boolean isTest = true;
+    public static boolean isTest = false;
 
     //根据是否是测试环境，返回网络参数
     public static final String NetworkParameter = isTest ? "https://ropsten.infura.io/v3/7a96432ff7074b898ce5ed298a4d8356"
